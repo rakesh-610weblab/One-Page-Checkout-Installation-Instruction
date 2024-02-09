@@ -142,7 +142,7 @@ Admin users can toggle custom colors on or off and fine-tune the color palette t
 
 
 
-# Override CSS:
+# Do your own CSS:
 To customize the color of your order form page, access the color schema page on the admin side. If further customization is required, rename the file "overrides.css.rename" to "overrides.css" at the specified path below. You can then write your custom CSS within this file to tailor the color scheme according to your preferences.
 Path: whmcs_root/templates/orderforms/whmcsdigitalonepagecheckout/assets/css/overrides
 
