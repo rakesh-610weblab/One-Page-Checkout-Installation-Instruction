@@ -2,11 +2,11 @@
 
 One-page Checkout Documentation
 This documentation guides you through the seamless integration and activation of the One-Page Checkout Module for WHMCS, designed to condense the entire order process into a single, user-friendly page. From installation to customization, follow these steps to enhance your customer's journey and boost efficiency.
-Installation Instructions To install the module, follow these steps:
+# Installation Instructions To install the module, follow these steps:
 Download the zip file and extract it.
 Upload the files into your WHMCS root directory.
 Cross-check that the files are placed according to the following image reference:
-1. Addon Module File Placement:
+# 1. Addon Module File Placement:
 The addon module file should be placed in your WHMCS for this path - whmcs_root/modules/addons. Refer to this image for more details:
    
 
