@@ -20,7 +20,7 @@ Go to the whmcs_root/lang folder and check if the overrides folder exists. If th
 
 For example, if your WHMCS has English language, create an english.php file and add the code mentioned below. Otherwise, add only language variables into your file as per the WHMCS language.
 
-        <?php
+        `<?php
 
 if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
@@ -78,7 +78,7 @@ $_LANG['wdOnePageButtonAdded'] = "Added";
 $_LANG['wdOnePageOnSale'] = "On Sale";
 $_LANG['wdOnePageBillMainHeading'] = "Select Term length";
 $_LANG['wdOnePageBillMainDescrp'] = "Lock in your saving with a multi year term.";
-$_LANG['wdClickToViewCart'] = "Click Here To See Cart";
+$_LANG['wdClickToViewCart'] = "Click Here To See Cart";`
 
 # Module Activation steps
 Log in to your WHMCS Admin account and navigate to Settings > System Settings > Addon Modules> One Page Checkout Module. Click on the Activate button.
