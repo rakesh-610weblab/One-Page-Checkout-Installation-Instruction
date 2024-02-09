@@ -17,6 +17,7 @@ The addon module file should be placed in your WHMCS for this path - whmcs_root/
 
 # 2. Order Form Template Integration:
 The order form template files should be placed in your WHMCS for this path - whmcs_root/templates/orderforms. Refer to this image for more details: 
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/55489684-3a1d-4072-accf-038d06c385f2)
 
 
@@ -92,6 +93,7 @@ Log in to your WHMCS Admin account and navigate to Settings > System Settings > 
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/0e0514d3-51eb-45ef-ba25-ddb27be5ff6c)
 
 Manage your access control settings to allow selected users to manage this addon module setting. You can also tick or untick the delete database checkbox to manage the module table deletions when deactivating the module.
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/fe5a01a2-70ab-4410-8920-8c60ee8948c7)
 
 
@@ -104,6 +106,7 @@ By default, the WHMCS domain ordering process has a step of Captcha filling. As 
 Follow these steps to disable the domain captcha:
 Go to Settings > General Settings > Security tab.
 Uncheck the Domain checker checkbox and click on the Save Changes button.
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/664b1d54-6db6-40a2-87d4-38f47dfc50cb)
 
 
@@ -115,12 +118,14 @@ To set up the Stripe gateway, follow these steps:
 Create a hidden product with a price greater than 0 and input its ID into the module settings form.
 Once the module is activated, navigate to Addons -> One Page Checkout -> Settings.
 Enter the ID of your hidden product and click the "Save Changes" button.
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/f873f5ce-2c6d-453b-afc6-45b152c9e081)
 
 
 
 # View Offers and Disclaimer Page
 If you have a dedicated page related to offers and disclaimer information, you can pass the URL link into the WHMCS module form. Users can view this page while placing their orders. To set up the offers and disclaimer page, go to Addons > One Page Checkout > Settings, enter your page URL, and click on the Save Changes button.
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/dfb67587-e0d3-4072-8f9d-d4fd257ff928)
 
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/502e5511-4349-4d8a-860e-bd9277a39377)
@@ -131,6 +136,7 @@ If you have a dedicated page related to offers and disclaimer information, you c
 Admin users have the flexibility to control the colors of the order form template.
 To access and modify the color settings, navigate to Addons > One Page Checkout > Color Schema.
 Admin users can toggle custom colors on or off and fine-tune the color palette to align with their preferences.
+
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/d4c639fb-30c3-4228-a42d-a929d4cf8e4a)
 
 
