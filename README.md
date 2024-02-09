@@ -10,10 +10,10 @@ Cross-check that the files are placed according to the following image reference
 The addon module file should be placed in your WHMCS for this path - whmcs_root/modules/addons. Refer to this image for more details:
    
 
-2. Order Form Template Integration:
+# 2. Order Form Template Integration:
 The order form template files should be placed in your WHMCS for this path - whmcs_root/templates/orderforms. Refer to this image for more details: 
 
-3. Language variables
+# 3. Language variables
 Go to the whmcs_root/lang folder and check if the overrides folder exists. If the overrides folder does not exist, create the folder with the name overrides and create the file according to your WHMCS language. 
 
 For example, if your WHMCS has English language, create an english.php file and add the code mentioned below. Otherwise, add only language variables into your file as per the WHMCS language.
@@ -70,11 +70,8 @@ For example, if your WHMCS has English language, create an english.php file and 
             $_LANG['domainavailable1'] = "Congratulations!";
             $_LANG['domainavailable2'] = "is available!";
             $_LANG['wdClickToViewCart'] = "Click Here To See Cart";
-Module Activation steps
+# Module Activation steps
     1. Log in to your WHMCS Admin account and navigate to Settings > System Settings > Addon Modules> One Page Checkout Module. Click on the Activate button.
-
-
-
     2. Manage your access control settings to allow selected users to manage this addon module setting. You can also tick or untick the delete database checkbox to manage the module table deletions when deactivating the module.
 
 
@@ -83,16 +80,14 @@ Your module is now activated. You need to set the default order form as well. To
 
 
 
-Note:
+# Note:
 
 By default, the WHMCS domain ordering process has a step of Captcha filling. As we have made custom functionality of one-page checkout, you need to disable the domain captcha from the admin side.
-
 Follow these steps to disable the domain captcha:
-
 Go to Settings > General Settings > Security tab.
 Uncheck the Domain checker checkbox and click on the Save Changes button.
 
-Stripe Gateway Setup
+# Stripe Gateway Setup
 Great news! We've thoroughly examined the default Stripe gateway documentation and addressed a crucial compatibility issue with the Modern or Boxes order form templates. However, we have worked on the module for this part and made the order form compatible with the Stripe payment gateway.
 
 To set up the Stripe gateway, follow these steps:
@@ -102,18 +97,16 @@ Once the module is activated, navigate to Addons -> One Page Checkout -> Setting
 Enter the ID of your hidden product and click the "Save Changes" button.
 
 
-View Offers and Disclaimer Page
+# View Offers and Disclaimer Page
 If you have a dedicated page related to offers and disclaimer information, you can pass the URL link into the WHMCS module form. Users can view this page while placing their orders. To set up the offers and disclaimer page, go to Addons > One Page Checkout > Settings, enter your page URL, and click on the Save Changes button.
 
 
-
-
-
-Manage Color Settings
+# Manage Color Settings
 Admin users have the flexibility to control the colors of the order form template.
 To access and modify the color settings, navigate to Addons > One Page Checkout > Color Schema.
 Admin users can toggle custom colors on or off and fine-tune the color palette to align with their preferences.
-Override CSS:
+
+# Override CSS:
 To customize the color of your order form page, access the color schema page on the admin side. If further customization is required, rename the file "overrides.css.rename" to "overrides.css" at the specified path below. You can then write your custom CSS within this file to tailor the color scheme according to your preferences.
 
 Path: whmcs_root/templates/orderforms/whmcsdigitalonepagecheckout/assets/css/overrides
