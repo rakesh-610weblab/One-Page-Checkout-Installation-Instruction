@@ -88,7 +88,7 @@ $_LANG['wdClickToViewCart'] = "Click Here To See Cart";
 ```
 
 # Module Activation steps
-Log in to your WHMCS Admin account and navigate to Settings > System Settings > Addon Modules> One Page Checkout Module. Click on the Activate button.
+Log in to your WHMCS Admin account and navigate to **Settings > System Settings > Addon Modules> One Page Checkout Module**. Click on the Activate button.
 
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/0e0514d3-51eb-45ef-ba25-ddb27be5ff6c)
 
