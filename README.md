@@ -1,5 +1,5 @@
 # One-Page-Checkout-Installation-Instruction
-![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/de52e8f0-ef25-4c9f-b848-352c896f7697)
+
 
 
 One-page Checkout Documentation
@@ -20,61 +20,69 @@ Go to the whmcs_root/lang folder and check if the overrides folder exists. If th
 
 For example, if your WHMCS has English language, create an english.php file and add the code mentioned below. Otherwise, add only language variables into your file as per the WHMCS language.
 
-        if (!defined("WHMCS")) die("This file cannot be accessed directly");
+        <?php
 
-            $_LANG['locale'] = "en_GB";
+if (!defined("WHMCS")) die("This file cannot be accessed directly");
 
-            $_LANG['wdOnePageThisDoman'] = "this domain ";
-            $_LANG['wdOnePageContactAdmin'] = " Please contact with whmcs administrator for same.";
-            $_LANG['wdOnePageHaveDomain'] = "This product have domain required please add domain Or there is domain in cart will assign that domain. you can manage it later.";
-            $_LANG['wdOnePageAllowDomainReg'] = " Please ask whmcs admin to allow domain registration.";
-            $_LANG['wdOnePageRemovePromoCode'] = "Are you sure you want to remove promo code?";
-            $_LANG['wdOnePageRegTransferDomain'] = "Register/Transfer Domain";
-            $_LANG['wdOnePageChooseProductGroup'] = "Choose Product Group";
-            $_LANG['wdOnePageSelectProductGroup'] = " --Select Product Group-- ";
-            $_LANG['wdOnePageChoosePlan'] = "Choose Your Plan";
-            $_LANG['wdOnePageShowLess'] = "show less!";
-            $_LANG['wdOnePagePrefferedTld'] = "Preffered tld is not available.";
-            $_LANG['wdOnePageManageDomainProduct'] = "Manage Domain with Product";
-            $_LANG['wdOnePageManageDomainOption1'] = "Choose Prefered Action For Domain";
-            $_LANG['wdOnePageManageDomainOption2'] = "Remove Domain From Product";
-            $_LANG['wdOnePageDomainRequired'] = "Domain Required";
-            $_LANG['wdOnePageDomainAssignedAlready'] = "Domain Already assigned to this product. try to remove and then reassign.";
-            $_LANG['wdOnePageSignSignup'] = "Sign In / Sign Up";
-            $_LANG['wdOnePagePromoCode'] = "Promo Code";
-            $_LANG['wdOnePageAssignDomainError'] = "Assign domain to your hosting services to complete the order";
-            $_LANG['wdOnePageRemoveCart'] = "Remove";
-            $_LANG['wdOnePageSelectProduct'] = "Select Product Addon";
-            $_LANG['wdOnePageOwnDomainAdd'] = "Your domain is assigned to product. Check summary for same.";
-            $_LANG['wdOnePageMoneyBackMainHeading'] = "30 days money back guarantee";
-            $_LANG['wdOnePageMoneyBackTagLine'] = "You have 30 days to change your mind in case you are not satisfied.";
-            $_LANG['wdOnePageMoneyBackNotes'] = "*refund does not apply to domain names";
-            $_LANG['wdOnePageSaveCycle'] = "Save";
-            $_LANG['wdOnePageCycleAt'] = "at";
-            $_LANG['wdOnePageCycleChange'] = "Change Billing Cycle";
-            $_LANG['wdOnePageCycleAlert'] = "You Must Select the billing cycle";
-            $_LANG['wdOnePageCycleAlertTitle'] = "Choose Billing Cycle";
-            $_LANG['wdOnePageCycleAlertBtnOk'] = "Ok";
-            $_LANG['wdOnePagePromoAlertTitle'] = "Promo code error.";
-            $_LANG['wdOnePageHavePromoCode'] = "Have a promo code ?";
-            $_LANG['wdOnePageRemoveButton'] = "Remove";
-            $_LANG['wdOnePageHostingPlan'] = "Select Hosting Plans";
-            $_LANG['wdOnePageBuyHosting'] = "Buy Hosting +";
-            $_LANG['wdOnePageBuyDomainHosting'] = "Domain";
-            $_LANG['wdOnePageBillingCycle'] = "Billing Cycle";
-            $_LANG['pricingCycleLong']['onetime'] = "One Time";
-            $_LANG['wdOnePageSubDomainAdd'] = "Your subdomain is assigned to product. Check summary for same.";
-            $_LANG['wdOnePageSubDomainError'] = " is already assign try with another one.";
-            $_LANG['wdOnePageButtonAdded'] = "Added";
-            $_LANG['wdOnePageOnSale'] = "On Sale";
-            $_LANG['wdOnePageBillMainHeading'] = "Select Term length";
-            $_LANG['wdOnePageBillMainDescrp'] = "Lock in your saving with a multi year term.";
-            $_LANG['domainavailable1'] = "Congratulations!";
-            $_LANG['domainavailable2'] = "is available!";
-            $_LANG['wdClickToViewCart'] = "Click Here To See Cart";
+$_LANG['locale'] = "en_GB";
+
+$_LANG['wdOnePageContactAdmin'] = " Please contact with whmcs administrator for same.";
+$_LANG['wdOnePageThisDoman'] = "this domain ";
+$_LANG['wdOnePageHaveDomain'] = "This product have domain required please add domain Or there is domain in cart will assign that domain. you can manage it later.";
+$_LANG['wdOnePageAllowDomainReg'] = " Please ask whmcs admin to allow domain registration.";
+$_LANG['wdOnePageRegTransferDomain'] = "Register/Transfer Domain";
+$_LANG['wdOnePageManageDomainProduct'] = "Manage Domain with Product";
+$_LANG['wdOnePageManageDomainOption1'] = "Choose Prefered Action For Domain";
+$_LANG['wdOnePageManageDomainOption2'] = "Remove Domain From Product";
+$_LANG['wdOnePageDomainRequired'] = "Domain Required";
+$_LANG['wdOnePageDomainAssignedAlready'] = "Domain Already assigned to this product. try to remove and then reassign.";
+$_LANG['wdOnePageAssignDomainError'] = "Assign domain to your hosting services to complete the order";
+$_LANG['wdOnePageOwnDomainAdd'] = "Your domain is assigned to product. Check summary for same.";
+$_LANG['wdOnePageBuyDomainHosting'] = "Domain";
+$_LANG['wdOnePageSubDomainAdd'] = "Your subdomain is assigned to product. Check summary for same.";
+$_LANG['wdOnePageSubDomainError'] = " is already assign try with another one.";
+$_LANG['domainavailable1'] = "Congratulations!";
+$_LANG['domainavailable2'] = "is available!";
+$_LANG['wdOnePageShowLess'] = "show less!";
+$_LANG['wdOnePagePrefferedTld'] = "Preffered tld is not available.";
+
+$_LANG['wdOnePageSaveCycle'] = "Save";
+$_LANG['wdOnePageCycleAt'] = "at";
+$_LANG['wdOnePageCycleChange'] = "Change Billing Cycle";
+$_LANG['wdOnePageCycleAlert'] = "You Must Select the billing cycle";
+$_LANG['wdOnePageCycleAlertTitle'] = "Choose Billing Cycle";
+$_LANG['wdOnePageCycleAlertBtnOk'] = "Ok";
+$_LANG['wdOnePageBillingCycle'] = "Billing Cycle";
+$_LANG['pricingCycleLong']['onetime'] = "One Time";
+
+$_LANG['wdOnePageChooseProductGroup'] = "Choose Product Group";
+$_LANG['wdOnePageSelectProductGroup'] = " --Select Product Group-- ";
+$_LANG['wdOnePageSelectProduct'] = "Select Product Addon";
+
+$_LANG['wdOnePageRemovePromoCode'] = "Are you sure you want to remove promo code?";
+$_LANG['wdOnePagePromoCode'] = "Promo Code";
+$_LANG['wdOnePagePromoAlertTitle'] = "Promo code error.";
+$_LANG['wdOnePageHavePromoCode'] = "Have a promo code ?";
+
+$_LANG['wdOnePageChoosePlan'] = "Choose Your Plan";
+$_LANG['wdOnePageHostingPlan'] = "Select Hosting Plans";
+
+$_LANG['wdOnePageSignSignup'] = "Sign In / Sign Up";
+$_LANG['wdOnePageRemoveCart'] = "Remove";
+$_LANG['wdOnePageMoneyBackMainHeading'] = "30 days money back guarantee";
+$_LANG['wdOnePageMoneyBackTagLine'] = "You have 30 days to change your mind in case you are not satisfied.";
+$_LANG['wdOnePageMoneyBackNotes'] = "*refund does not apply to domain names";
+$_LANG['wdOnePageRemoveButton'] = "Remove";
+$_LANG['wdOnePageBuyHosting'] = "Buy Hosting +";
+$_LANG['wdOnePageButtonAdded'] = "Added";
+$_LANG['wdOnePageOnSale'] = "On Sale";
+$_LANG['wdOnePageBillMainHeading'] = "Select Term length";
+$_LANG['wdOnePageBillMainDescrp'] = "Lock in your saving with a multi year term.";
+$_LANG['wdClickToViewCart'] = "Click Here To See Cart";
+
 # Module Activation steps
-    1. Log in to your WHMCS Admin account and navigate to Settings > System Settings > Addon Modules> One Page Checkout Module. Click on the Activate button.
-    2. Manage your access control settings to allow selected users to manage this addon module setting. You can also tick or untick the delete database checkbox to manage the module table deletions when deactivating the module.
+Log in to your WHMCS Admin account and navigate to Settings > System Settings > Addon Modules> One Page Checkout Module. Click on the Activate button.
+Manage your access control settings to allow selected users to manage this addon module setting. You can also tick or untick the delete database checkbox to manage the module table deletions when deactivating the module.
 
 
 
