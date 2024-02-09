@@ -16,7 +16,7 @@ The addon module file should be placed in your WHMCS for this path - **whmcs_roo
    
 
 # 2. Order Form Template Integration:
-The order form template files should be placed in your WHMCS for this path - whmcs_root/templates/orderforms. Refer to this image for more details: 
+The order form template files should be placed in your WHMCS for this path - **whmcs_root/templates/orderforms**. Refer to this image for more details: 
 
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/55489684-3a1d-4072-accf-038d06c385f2)
 
