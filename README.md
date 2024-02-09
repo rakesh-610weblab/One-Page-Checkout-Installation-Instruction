@@ -119,14 +119,15 @@ Create a hidden product with a price greater than 0 and input its ID into the mo
 Once the module is activated, navigate to Addons -> One Page Checkout -> Settings.
 Enter the ID of your hidden product and click the "Save Changes" button.
 
-![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/f873f5ce-2c6d-453b-afc6-45b152c9e081)
+![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/6376f2a6-5bbd-4985-a589-912d36765fb6)
+
 
 
 
 # View Offers and Disclaimer Page
 If you have a dedicated page related to offers and disclaimer information, you can pass the URL link into the WHMCS module form. Users can view this page while placing their orders. To set up the offers and disclaimer page, go to Addons > One Page Checkout > Settings, enter your page URL, and click on the Save Changes button.
 
-![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/dfb67587-e0d3-4072-8f9d-d4fd257ff928)
+![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/c133dec9-5d2e-44db-8515-a184c7850fbf)
 
 ![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/502e5511-4349-4d8a-860e-bd9277a39377)
 
@@ -137,7 +138,8 @@ Admin users have the flexibility to control the colors of the order form templat
 To access and modify the color settings, navigate to Addons > One Page Checkout > Color Schema.
 Admin users can toggle custom colors on or off and fine-tune the color palette to align with their preferences.
 
-![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/d4c639fb-30c3-4228-a42d-a929d4cf8e4a)
+![image](https://github.com/rakesh-610weblab/One-Page-Checkout-Installation-Instruction/assets/154584764/29e1c592-76bc-4c19-992e-c693aed2ed65)
+
 
 
 # Override CSS:
